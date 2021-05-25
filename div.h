@@ -48,10 +48,10 @@ class Div: public Base {
         visitor->visit_add_begin(this);
       }
       else if(index == 1) {
-        visitor->visitor_add_middle(this);
+        visitor->visit_add_middle(this);
       }
       else {
-        visitor->visitor_add_end(this);
+        visitor->visit_add_end(this);
       }
     }
 };
