@@ -1,12 +1,12 @@
 #include <iostream>
-#include "base.h"
+#include "base.hpp"
 #include "div.h"
 #include "mult.h"
 #include "add.h"
 #include "pow.h"
 #include "sub.h"
 #include "op.hpp"
-#include "visitor.h"
+#include "visitor.hpp"
 #include "iterator.cpp"
 #include "latex.h"
 
