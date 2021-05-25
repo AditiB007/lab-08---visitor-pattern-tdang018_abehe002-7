@@ -21,9 +21,9 @@ int main() {
   Base* test2 = new Div(three, test1);
   Base* test3 = new Div(test1, one);
    
-  string str1 =PrintLaTeX(test1);
-  string str2 =PrintLaTeX(test2);
-  string str3 =PrintLaTeX(test3);
+  string str1 = PrintLatex(test1);
+  string str2 = PrintLatex(test2);
+  string str3 = PrintLatex(test3);
 
   cout << str1 << endl;
   cout << str2 << endl;
